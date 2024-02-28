@@ -1,0 +1,107 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>이상(이건상) 자기소개</title>
+
+    <style>
+
+        div, table, tr, td { border-collapse: collapse; border: 1px solid }
+    </style>
+</head>
+<body>
+
+<div>
+    <h1>자기소개</h1>
+    <ul>
+        <li>이름 : 이상</li>
+        <li>사는곳 : 일산</li>
+        <li>안녕하세요 우테코 6기 BE 이상입니다. 이상입니다.</li>
+    </ul>
+</div>
+
+<div>
+    <h1>인생 영화 BEST5</h1>
+    <table>
+        <tr>
+            <td>순위</td>
+            <td>제목</td>
+            <td>포스터</td>
+            <td>줄거리</td>
+            <td>바로가기</td>
+        </tr>
+        <tr id="movie1">
+            <td>1</td>
+            <td id="movie1Name">인터스텔라</td>
+            <td><img src="../images/interstella.jpeg"></td>
+            <td>블랙홀로 빨려들어갔다가 나오는 이야기</td>
+            <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=1783161&qvt=0&query=%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC%20%EC%A0%95%EB%B3%B4">클릭</a></td>
+        </tr>
+        <tr id="movie2">
+            <td>2</td>
+            <td id="movie2Name">인셉션</td>
+            <td><img src="../images/inception.jpeg"></td>
+            <td>꿈속의 꿈속의 꿈속의 꿈속에서 팽이가 계속 도는 이야기</td>
+            <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=1790335&qvt=0&query=%EC%9D%B8%EC%85%89%EC%85%98">클릭</a></td>
+        </tr>
+        <tr id="movie3">
+            <td>3</td>
+            <td id="movie3Name">테넷</td>
+            <td><img src="../images/tenet.jpeg"></td>
+            <td>엔트로피가 의존 역전되어 일어날 일은 일어나는 이야기</td>
+            <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=10438362&qvt=0&query=%ED%85%8C%EB%84%B7">클릭</a></td>
+        </tr>
+        <tr id="movie4">
+            <td>4</td>
+            <td id="movie4Name">내부자들</td>
+            <td><img src="../images/insideMen.jpeg"></td>
+            <td>좋았어!!!!!!!!!!!! 영 차!!!!!!!!!!!!</td>
+            <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=1859343&qvt=0&query=%EB%82%B4%EB%B6%80%EC%9E%90%EB%93%A4">클릭</a></td>
+        </tr>
+        <tr id="movie5">
+            <td>5</td>
+            <td id="movie5Name">라라랜드</td>
+            <td><img src="../images/lalaland.jpeg"></td>
+            <td>커플이 사귀면서 춤 잘 추다가 헤어지고 각자 잘 사는 이야기</td>
+            <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=2324869&qvt=0&query=%EB%9D%BC%EB%9D%BC%EB%9E%9C%EB%93%9C%20%EC%98%81%ED%99%94">클릭</a></td>
+        </tr>
+    </table>
+</div>
+
+<div>
+    <h1>방명록</h1>
+    이름 :
+    <label>
+        <input type="text" size="200" id="name">
+    </label>
+    <p>본인 취향 영화</p>
+    <label>
+        <label>
+            <input type="checkbox" id="checkbox1">
+            <span id="movie1NameLabel"></span>
+        </label>
+        <label>
+            <input type="checkbox" id="checkbox2">
+            <span id="movie2NameLabel"></span>
+        </label>
+        <label>
+            <input type="checkbox" id="checkbox3">
+            <span id="movie3NameLabel"></span>
+        </label>
+        <label>
+            <input type="checkbox" id="checkbox4">
+            <span id="movie4NameLabel"></span>
+        </label>
+        <label>
+            <input type="checkbox" id="checkbox5">
+            <span id="movie5NameLabel"></span>
+        </label>
+    </label>
+    <br>
+    <button type="button" id="button">등록</button>
+    <button type="reset" id="reset">취소</button>
+</div>
+
+<script src="../js/introduction.js"></script>
+
+</body>
+</html>
