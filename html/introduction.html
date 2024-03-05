@@ -4,9 +4,67 @@
     <title>이상(이건상) 자기소개</title>
 
     <style>
+        body{
+            background-color: #F3F3F3;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
 
-        div, table, tr, td { border-collapse: collapse; border: 1px solid }
+        h1{
+            color: #333;
+        }
+
+        ul{
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li{
+            padding: 10px 0;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        table td, table th{
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        table tr:nth-child(even){
+            background-color: #f2f2f2;
+        }
+
+        table tr:hover{
+            background-color: #ddd;
+        }
+
+        table th{
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #button, #reset{
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #button:hover, #reset:hover{
+            background-color: #45a049;
+        }
     </style>
+
 </head>
 <body>
 
@@ -33,35 +91,37 @@
             <td>1</td>
             <td id="movie1Name">인터스텔라</td>
             <td><img src="../images/interstella.jpeg"></td>
-            <td>블랙홀로 빨려들어갔다가 나오는 이야기</td>
+            <td>세계 각국의 정부와 경제가 완전히 붕괴된 미래가 다가온다. 지난 20세기에 범한 잘못이 전 세계적인 식량 부족을 불러왔고, NASA도 해체되었다. 이때 시공간에 불가사의한 틈이 열리고, 남은 자들에게는 이 곳을 탐험해 인류를 구해야 하는 임무가 지워진다. 사랑하는 가족들을 뒤로 한 채 인류라는 더 큰 가족을 위해, 그들은 이제 희망을 찾아 우주로 간다. 그리고 우린 답을 찾을 것이다. 늘 그랬듯이…</td>
             <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=1783161&qvt=0&query=%EC%9D%B8%ED%84%B0%EC%8A%A4%ED%85%94%EB%9D%BC%20%EC%A0%95%EB%B3%B4">클릭</a></td>
         </tr>
         <tr id="movie2">
             <td>2</td>
             <td id="movie2Name">인셉션</td>
             <td><img src="../images/inception.jpeg"></td>
-            <td>꿈속의 꿈속의 꿈속의 꿈속에서 팽이가 계속 도는 이야기</td>
+            <td>주인공 코브는 패시브(PASIV DEVICE)라는 기계를 이용해 다른 사람과 꿈을 공유하고 그 꿈 속에서 타인의 비밀을 추출(Extraction)해내는 추출가라는 직업을 가지고 있다.
+
+                해변에서 발견된 코브를 일본인 경비원들이 발견해 일본풍 고성으로 데려가며 영화가 시작된다. 그리고 코브는 한 일본인 노인과 대면하게 되고, 노인은 코브의 소지품 중 팽이를 만져보면서 "이 팽이, 본 적 있어. 반쯤 잊혀진 꿈(Half Remembered Dream)에서."라고 말한다.</td>
             <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=1790335&qvt=0&query=%EC%9D%B8%EC%85%89%EC%85%98">클릭</a></td>
         </tr>
         <tr id="movie3">
             <td>3</td>
             <td id="movie3Name">테넷</td>
             <td><img src="../images/tenet.jpeg"></td>
-            <td>엔트로피가 의존 역전되어 일어날 일은 일어나는 이야기</td>
+            <td>시간의 흐름을 뒤집는 인버전을 통해 현재와 미래를 오가며 세상을 파괴하려는 사토르(케네스 브래너)를 막기 위해 투입된 작전의 주도자(존 데이비드 워싱턴). 인버전에 대한 정보를 가진 닐(로버트 패틴슨)과 미술품 감정사이자 사토르에 대한 복수심이 가득한 그의 아내 캣(엘리자베스 데비키)과 협력해 미래의 공격에 맞서 제3차 세계대전을 막아야 한다!</td>
             <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=10438362&qvt=0&query=%ED%85%8C%EB%84%B7">클릭</a></td>
         </tr>
         <tr id="movie4">
             <td>4</td>
             <td id="movie4Name">내부자들</td>
             <td><img src="../images/insideMen.jpeg"></td>
-            <td>좋았어!!!!!!!!!!!! 영 차!!!!!!!!!!!!</td>
+            <td>“복수극으로 가자고, 화끈하게” 유력한 대통령 후보와 재벌 회장, 그들을 돕는 정치깡패 안상구(이병헌). 뒷거래의 판을 짠 이는 대한민국 여론을 움직이는 유명 논설주간 이강희(백윤식)다. 더 큰 성공을 원한 안상구는 이들의 비자금 파일로 거래를 준비하다 발각되고, 이 일로 폐인이 되어 버려진다. “넌 복수를 원하고, 난 정의를 원한다. 그림 좋잖아?” 빽 없고 족보가 없어 늘 승진을 눈 앞에 두고 주저 앉는 검사 우장훈(조승우). 마침내 대선을 앞둔 대대적인 비자금 조사의 저격수가 되는 기회를 잡는다. 그러나 비자금 파일을 가로챈 안상구 때문에 수사는 종결되고, 우장훈은 책임을 떠안고 좌천된다. 자신을 폐인으로 만든 일당에게 복수를 계획하는 정치깡패 안상구 비자금 파일과 안상구라는 존재를 이용해 성공하고 싶은 무족보 검사 우장훈 그리고 비자금 스캔들을 덮어야 하는 대통령 후보와 재벌, 그들의 설계자 이강희 과연 살아남는 자는 누가 될 것인가?</td>
             <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=1859343&qvt=0&query=%EB%82%B4%EB%B6%80%EC%9E%90%EB%93%A4">클릭</a></td>
         </tr>
         <tr id="movie5">
             <td>5</td>
             <td id="movie5Name">라라랜드</td>
             <td><img src="../images/lalaland.jpeg"></td>
-            <td>커플이 사귀면서 춤 잘 추다가 헤어지고 각자 잘 사는 이야기</td>
+            <td>꿈을 꾸는 사람들을 위한 별들의 도시 ‘라라랜드’. 재즈 피아니스트 ‘세바스찬’(라이언 고슬링)과 배우 지망생 ‘미아’(엠마 스톤), 인생에서 가장 빛나는 순간 만난 두 사람은 미완성인 서로의 무대를 만들어가기 시작한다.</td>
             <td><a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=2324869&qvt=0&query=%EB%9D%BC%EB%9D%BC%EB%9E%9C%EB%93%9C%20%EC%98%81%ED%99%94">클릭</a></td>
         </tr>
     </table>
